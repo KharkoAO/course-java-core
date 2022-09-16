@@ -34,7 +34,7 @@ class Task05 {
      * @param weight - вес
      */
     static int calculateDeviationStandardWeight(int height, int weight) {
-
-        return weight - (height - 110);
+        final int VALUE_FOR_CALCULATION_OF_IDEAL_WEIGHT = 110;
+        return weight - (height - VALUE_FOR_CALCULATION_OF_IDEAL_WEIGHT);
     }
 }
